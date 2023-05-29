@@ -6,6 +6,6 @@ class ChartsController < ApplicationController
 
 
   def chart_params
-    params.permit(:first_name, :middle_name, :last_name, :birthdate)
+    params.permit(:first, :middle, :last, :birthdate)
   end
 end

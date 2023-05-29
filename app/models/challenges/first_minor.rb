@@ -1,5 +1,5 @@
 module Challenges
-  class SecondMinorChallenge < Number
+  class FirstMinor < Number
     validates :number, uniqueness: true
   end
 end

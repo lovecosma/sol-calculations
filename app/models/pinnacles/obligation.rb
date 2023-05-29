@@ -1,5 +1,5 @@
 module Pinnacles
-  class PinnacleOfAttainment < Number
+  class Obligation < Number
     validates :number, uniqueness: true
   end
 end

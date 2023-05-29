@@ -1,5 +1,5 @@
 module Cycles
-  class ProductiveCycle < Number
+  class Productive < Number
     validates :number, uniqueness: true
   end
 end
